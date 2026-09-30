@@ -18,7 +18,7 @@ Désinstaller ModelTV efface ces données.
 
 ## 2. Ce qui est envoyé, même sans compte
 
-- **Serveur ModelTV** (Google Firebase, région Paris) : au lancement de l’application, une **empreinte anonyme de l’appareil** (calculée à partir de l’identifiant Android, qui ne peut pas être retrouvé à partir d’elle), la version et la variante de l’application. Le serveur conserve la date du premier lancement, la date du dernier contact, la version et la variante. Cela sert à transmettre des informations de service (par exemple une mise à jour nécessaire) et à gérer une éventuelle période d’essai. Cette empreinte n’est reliée ni à votre compte ni à votre adresse e-mail. Pour limiter les abus, le serveur compte les demandes par empreinte de l’adresse IP et par minute.
+- **Serveur ModelTV** (Google Firebase, région Paris) : au lancement de l’application, un **identifiant pseudonyme de l’appareil** (empreinte calculée à partir de l’identifiant Android, qui ne permet pas de retrouver ce dernier), la version et la variante de l’application. Le serveur conserve la date du premier lancement, la date du dernier contact, la version et la variante. Cela sert à transmettre des informations de service (par exemple une mise à jour nécessaire) et à gérer une éventuelle période d’essai. Cet identifiant n’est enregistré ni avec votre compte ni avec votre adresse e-mail ; il est effacé deux ans après le dernier contact de l’appareil. Pour limiter les abus, le serveur compte les demandes par empreinte de l’adresse IP et par minute ; ces compteurs sont effacés automatiquement sous 48 heures.
 - **TMDb** (The Movie Database) : les titres et années des films et séries de votre playlist, pour obtenir affiches, résumés et distributions. TMDb reçoit aussi votre adresse IP, comme tout site consulté. Les informations reçues sont conservées sur l’appareil six mois au plus. Politique de TMDb : https://www.themoviedb.org/privacy-policy
 - **IntroDB** : l’identifiant IMDb, la saison et l’épisode d’une série, pour connaître la position de son générique.
 - **YouTube** : une bande-annonce s’ouvre dans l’application ou le site YouTube, soumis aux règles de Google.
@@ -31,19 +31,28 @@ Le compte sert à synchroniser vos appareils. Il utilise la connexion Google (Fi
 
 - **Identité** : adresse e-mail, nom et photo de votre compte Google, et un identifiant de compte technique.
 - **Données synchronisées** : profils (nom, couleur, avatar), favoris, historique et progressions de lecture (titres, identifiants TMDb, positions), réglages d’apparence et de lecture, chaînes favorites, catégories personnelles, chaînes récemment regardées, règles de regroupement des chaînes. Les réglages propres à une playlist sont rangés sous une empreinte anonyme de la playlist : **jamais son adresse ni ses identifiants**.
-- **Connexion d’un téléviseur** : une session temporaire de cinq minutes avec le nom de l’appareil.
+- **Connexion d’un téléviseur** : une session de cinq minutes avec le nom de l’appareil, effacée automatiquement sous 48 heures.
+- **Sécurité de la connexion** : Firebase Authentication traite aussi l’adresse IP et le type d’appareil (agent utilisateur) pour prévenir les abus.
 - **Trakt** (si vous l’associez) : les jetons d’accès Trakt sont conservés sur le serveur ModelTV, sans être lisibles par l’application, et les titres que vous avez vus avec les profils associés sont envoyés à Trakt. Politique de Trakt : https://trakt.tv/privacy
 
 Ces données sont hébergées par Google Firebase et conservées jusqu’à la suppression du compte.
 
+## Services Google intégrés
+
+ModelTV utilise des bibliothèques de Google qui transmettent à Google des données techniques, selon les [règles de confidentialité de Google](https://policies.google.com/privacy) :
+
+- **Firebase** (compte, synchronisation, serveur ModelTV) : adresse IP et agent utilisateur des requêtes.
+- **Google Cast** : journaux d’utilisation anonymes (découverte des appareils, sessions de diffusion, modèle de l’appareil), sans identifiant permettant de remonter à vous.
+- **Scanner de QR code** des services Google Play : métriques de performance et d’utilisation du scanner.
+
 ## 4. Supprimer votre compte
 
-- Dans l’application : **Réglages → Compte & profils → Supprimer mon compte**. Les profils, favoris, historiques, progressions et réglages synchronisés sont effacés du serveur, les comptes Trakt associés sont déconnectés (jetons révoqués) et le compte lui-même est supprimé.
+- Dans l’application : **Réglages → Compte & profils → Supprimer mon compte**. Les profils, favoris, historiques, progressions et réglages synchronisés sont effacés du serveur, les comptes Trakt associés sont déconnectés (jetons révoqués), les connexions de téléviseurs et l’éventuel accès offert à votre adresse sont effacés, puis le compte lui-même est supprimé.
 - Sans l’application : suivez https://b-dagbert.github.io/ModelTV-Releases/suppression-compte.html
 
 ## 5. Ce que ModelTV ne fait pas
 
-- Aucune publicité, aucun outil de mesure d’audience ni de suivi publicitaire.
+- Aucune publicité. Aucun outil de mesure d’audience ni de suivi publicitaire : seules les données techniques des services Google décrits plus haut leur sont transmises.
 - Aucune vente ni location de données.
 - Aucun contenu audiovisuel fourni : vous êtes responsable de disposer des droits sur les playlists que vous utilisez.
 
@@ -67,4 +76,4 @@ Toute modification de cette politique est publiée à cette adresse avec sa date
 
 ## Privacy policy (English summary)
 
-ModelTV is a video player for playlists (M3U, Xtream) supplied by the user; it provides no content. Playlist addresses and credentials stay on the device and are never sent to the ModelTV server. Without an account, the app sends the ModelTV server (Google Firebase, Paris region) an anonymous device fingerprint derived from the Android ID, with the app version, to deliver service notices and manage a possible trial; titles are sent to TMDb for artwork and summaries, and IMDb episode ids to IntroDB. With an optional account (Google sign-in), the Google e-mail, name and photo and the synchronised profiles, favourites, watch history, progress and settings are stored in Firebase until the account is deleted. Linked Trakt accounts receive the watched history. No ads, no analytics, no sale of data. Delete the account in the app (Settings → Account & profiles → Delete my account) or through https://b-dagbert.github.io/ModelTV-Releases/suppression-compte.html. Contact: **benjamin.dagbert@gmail.com**.
+ModelTV is a video player for playlists (M3U, Xtream) supplied by the user; it provides no content. Playlist addresses and credentials stay on the device and are never sent to the ModelTV server. Without an account, the app sends the ModelTV server (Google Firebase, Paris region) a pseudonymous device identifier derived from the Android ID, with the app version, to deliver service notices and manage a possible trial (erased two years after the device's last contact); titles are sent to TMDb for artwork and summaries, and IMDb episode ids to IntroDB. With an optional account (Google sign-in), the Google e-mail, name and photo and the synchronised profiles, favourites, watch history, progress and settings are stored in Firebase until the account is deleted. Linked Trakt accounts receive the watched history. Google libraries (Firebase, Cast, the Play services QR scanner) send Google technical data such as IP address, user agent and anonymous usage logs. No ads, no analytics tools, no sale of data. Delete the account in the app (Settings → Account & profiles → Delete my account) or through https://b-dagbert.github.io/ModelTV-Releases/suppression-compte.html. Contact: **benjamin.dagbert@gmail.com**.
