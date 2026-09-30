@@ -1,15 +1,23 @@
 #EXTM3U
 # Playlist de démonstration de ModelTV : uniquement des films libres de la Blender Foundation,
 # lus depuis son serveur officiel (download.blender.org), générique complet inclus.
-# Sintel et Tears of Steel : CC BY 3.0 ; Elephants Dream : CC BY 2.5.
-# (c) Blender Foundation | www.blender.org
+# Démo TV 1 diffuse Tears of Steel, Démo TV 2 Elephants Dream.
+#
+# Sintel (2010), © Blender Foundation, durian.blender.org
+#   Licence CC BY 3.0 : https://creativecommons.org/licenses/by/3.0/
+# Tears of Steel (2012), © Blender Foundation, mango.blender.org
+#   Licence CC BY 3.0 : https://creativecommons.org/licenses/by/3.0/
+# Elephants Dream (2006), © Blender Foundation et Netherlands Media Art Institute (Montevideo), orange.blender.org
+#   Licence CC BY 2.5 : https://creativecommons.org/licenses/by/2.5/
+#
+# La Blender Foundation ne soutient pas ModelTV et n'y est pas associée.
 #EXTINF:-1 group-title="Chaînes de démonstration",Démo TV 1
 https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov
 #EXTINF:-1 group-title="Chaînes de démonstration",Démo TV 2
-https://download.blender.org/ED/elephantsdream-720-h264-st-aac.mov
+https://download.blender.org/ED/elephantsdream-1024-h264-st-aac.mov
 #EXTINF:-1 group-title="Films",Sintel (2010)
 https://download.blender.org/demo/movies/Sintel.2010.1080p.mkv
 #EXTINF:-1 group-title="Films",Tears of Steel (2012)
 https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov
 #EXTINF:-1 group-title="Films",Elephants Dream (2006)
-https://download.blender.org/ED/elephantsdream-720-h264-st-aac.mov
+https://download.blender.org/ED/elephantsdream-1024-h264-st-aac.mov
