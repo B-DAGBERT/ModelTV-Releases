@@ -1,12 +1,12 @@
 # Politique de confidentialité de ModelTV
 
-Dernière mise à jour : 30 septembre 2026
+Dernière mise à jour : 2 octobre 2026
 
 ModelTV est un lecteur vidéo pour Android, Android TV et Google TV. Il lit les playlists M3U et les accès Xtream que vous fournissez vous-même. **ModelTV ne fournit aucune chaîne, aucun film ni aucun abonnement.**
 
 Cette politique décrit les données que ModelTV utilise, où elles vont et combien de temps elles sont conservées. Elle s’applique aux versions Google Play et GitHub de l’application.
 
-Responsable : le développeur de ModelTV, joignable à **benjamin.dagbert@gmail.com**.
+Responsable : le développeur de ModelTV, joignable à **contact@modeltv.app**.
 
 ## 1. Ce qui reste sur votre appareil
 
@@ -66,7 +66,7 @@ ModelTV ne s’adresse pas aux enfants de moins de 13 ans et ne collecte pas sci
 
 ## 8. Vos droits
 
-Vous pouvez demander l’accès à vos données, leur rectification, leur suppression, leur portabilité ou vous opposer à leur traitement en écrivant à **benjamin.dagbert@gmail.com**. Vous pouvez aussi saisir la CNIL (www.cnil.fr).
+Vous pouvez demander l’accès à vos données, leur rectification, leur suppression, leur portabilité ou vous opposer à leur traitement en écrivant à **contact@modeltv.app**. Vous pouvez aussi saisir la CNIL (www.cnil.fr).
 
 ## 9. Modifications
 
@@ -76,4 +76,4 @@ Toute modification de cette politique est publiée à cette adresse avec sa date
 
 ## Privacy policy (English summary)
 
-ModelTV is a video player for playlists (M3U, Xtream) supplied by the user; it provides no content. Playlist addresses and credentials stay on the device and are never sent to the ModelTV server. Without an account, the app sends the ModelTV server (Google Firebase, Paris region) a pseudonymous device identifier derived from the Android ID, with the app version, to deliver service notices and manage a possible trial (erased two years after the device's last contact); titles are sent to TMDb for artwork and summaries, and IMDb episode ids to IntroDB. With an optional account (Google sign-in), the Google e-mail, name and photo and the synchronised profiles, favourites, watch history, progress and settings are stored in Firebase until the account is deleted. Linked Trakt accounts receive the watched history. Google libraries (Firebase, Cast, the Play services QR scanner) send Google technical data such as IP address, user agent and anonymous usage logs. No ads, no analytics tools, no sale of data. Traffic with the ModelTV server, TMDb, IntroDB and Trakt is encrypted (HTTPS); if the provider address entered by the user starts with http://, the provider credentials and the video streams travel unencrypted: the app warns before saving such a playlist and offers the https:// address when the provider answers there. Delete the account in the app (Settings → Account & profiles → Delete my account) or through https://b-dagbert.github.io/ModelTV-Releases/suppression-compte.html. Contact: **benjamin.dagbert@gmail.com**.
+ModelTV is a video player for playlists (M3U, Xtream) supplied by the user; it provides no content. Playlist addresses and credentials stay on the device and are never sent to the ModelTV server. Without an account, the app sends the ModelTV server (Google Firebase, Paris region) a pseudonymous device identifier derived from the Android ID, with the app version, to deliver service notices and manage a possible trial (erased two years after the device's last contact); titles are sent to TMDb for artwork and summaries, and IMDb episode ids to IntroDB. With an optional account (Google sign-in), the Google e-mail, name and photo and the synchronised profiles, favourites, watch history, progress and settings are stored in Firebase until the account is deleted. Linked Trakt accounts receive the watched history. Google libraries (Firebase, Cast, the Play services QR scanner) send Google technical data such as IP address, user agent and anonymous usage logs. No ads, no analytics tools, no sale of data. Traffic with the ModelTV server, TMDb, IntroDB and Trakt is encrypted (HTTPS); if the provider address entered by the user starts with http://, the provider credentials and the video streams travel unencrypted: the app warns before saving such a playlist and offers the https:// address when the provider answers there. Delete the account in the app (Settings → Account & profiles → Delete my account) or through https://b-dagbert.github.io/ModelTV-Releases/suppression-compte.html. Contact: **contact@modeltv.app**.

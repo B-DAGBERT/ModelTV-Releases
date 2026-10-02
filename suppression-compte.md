@@ -10,7 +10,7 @@ Cette page explique comment supprimer votre compte **ModelTV** (application Andr
 
 ## Sans l’application
 
-Écrivez à **benjamin.dagbert@gmail.com** depuis l’adresse Google utilisée avec ModelTV, avec pour objet « Suppression de compte ModelTV ». La suppression est faite sous 30 jours et vous recevez une confirmation.
+Écrivez à **contact@modeltv.app** depuis l’adresse Google utilisée avec ModelTV, avec pour objet « Suppression de compte ModelTV ». La suppression est faite sous 30 jours et vous recevez une confirmation.
 
 ## Données supprimées
 
