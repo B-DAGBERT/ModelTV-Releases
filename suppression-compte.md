@@ -1,6 +1,6 @@
 # Supprimer votre compte ModelTV
 
-Cette page explique comment supprimer votre compte **ModelTV** (applications Android, Android TV, Google TV, iPhone, iPad et Apple TV) et les données qui lui sont associées.
+Cette page explique comment supprimer votre compte **ModelTV** (applications Android, Android TV, Google TV, Fire TV, iPhone, iPad et Apple TV) et les données qui lui sont associées.
 
 ## Depuis l’application (immédiat)
 
