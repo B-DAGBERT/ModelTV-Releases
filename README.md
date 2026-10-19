@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://modeltv.app/og-en.jpg" alt="ModelTV on a TV, a tablet and a phone" width="760">
+  <img src="images/icon.png" alt="ModelTV app icon" width="128">
 </p>
 
 <h1 align="center">ModelTV</h1>
@@ -25,15 +25,24 @@
 
 ---
 
-## What is ModelTV?
+## 🎬 What is ModelTV?
 
 ModelTV turns your own M3U playlists and Xtream logins into a library that feels like a streaming service: movie and series pages with posters, synopsis, cast and trailers, a TV guide made for the remote, and playback that resumes exactly where you left off, on every screen. It is designed to stay smooth even on modest TV boxes.
+
+<p align="center">
+  <img src="https://modeltv.app/og-en.jpg" alt="ModelTV on a TV, a tablet and a phone" width="760">
+</p>
 
 A demo playlist of open-licence Blender films is built in, so you can try ModelTV before adding anything.
 
 > ModelTV is an independent media player. It does not provide, host, sell or recommend any content, channel, subscription or IPTV access. You add your own sources and are responsible for having the right to use them. ModelTV is not affiliated with any content provider or IPTV service.
 
-## Features
+## ✨ Features
+
+<p align="center">
+  <img src="images/tv-detail.jpg" alt="Movie page on TV with poster, synopsis, Watch and Trailer buttons" width="49%">
+  <img src="images/tv-guide.jpg" alt="TV guide built for the remote, with catch-up" width="49%">
+</p>
 
 **Movies and series**
 - Pages from TMDb: posters, synopsis, rating, cast and trailers
@@ -63,7 +72,14 @@ A demo playlist of open-licence Blender films is built in, so you can try ModelT
 - English, French, Spanish, German, Italian and Portuguese
 - Free for now, no ads, no account required
 
-## Devices
+<p align="center">
+  <img src="images/iphone-home.jpg" alt="Home screen on iPhone" width="24%">
+  <img src="images/iphone-series.jpg" alt="Series page on iPhone, episode by episode" width="24%">
+  <img src="images/iphone-live.jpg" alt="Live TV guide and catch-up on iPhone" width="24%">
+  <img src="images/iphone-sources.jpg" alt="One channel with its 4K, FHD, HD and SD sources" width="24%">
+</p>
+
+## 📺 Devices
 
 | Device | Requires | Where to get it |
 |---|---|---|
@@ -75,7 +91,7 @@ A demo playlist of open-licence Blender films is built in, so you can try ModelT
 
 Samsung and LG TVs don't accept Android or Apple apps: plug a Google TV or Fire TV stick, or an Apple TV, into an HDMI port. Fire TV models running Vega OS can't run Android apps.
 
-## Install the APK
+## 📦 Install the APK
 
 For devices without the Play Store, such as Fire TV:
 
@@ -91,7 +107,7 @@ Each release on this page contains `ModelTV.apk` (always the latest version) and
 C9:82:A6:46:AD:F2:22:B5:89:63:22:35:7A:BD:A9:56:92:28:00:9D:48:9A:0F:D4:63:24:E4:02:A9:FF:16:D3
 ```
 
-## Privacy
+## 🔒 Privacy
 
 Without an account, your playlists and logins stay on your device. With an account, they are end-to-end encrypted before they leave it.
 
@@ -99,17 +115,17 @@ Without an account, your playlists and logins stay on your device. With an accou
 - [Delete your account](https://modeltv.app/en/delete-account/)
 - Pages kept for older versions of the app: [confidentialité](https://b-dagbert.github.io/ModelTV-Releases/confidentialite) and [suppression du compte](https://b-dagbert.github.io/ModelTV-Releases/suppression-compte)
 
-## Contact
+## ✉️ Contact
 
 A problem or a question? Write to **contact@modeltv.app**: every message gets a reply.
 
-## About this repository
+## 🗂️ About this repository
 
 This repository only hosts ModelTV's public files: the APK releases and their update manifest, the demo playlist, and the pages required by the app stores. The source code is not public.
 
 <a name="francais"></a>
 
-## En français
+## 🇫🇷 En français
 
 ModelTV est le lecteur IPTV pensé pour la télécommande : vos playlists M3U et accès Xtream deviennent un catalogue digne d'une plateforme de streaming, avec affiches, résumés, guide TV, replay quand votre fournisseur le propose, et un profil pour chacun, du téléphone à la télé. Gratuit pour l'instant, sans publicité, en six langues. ModelTV ne fournit aucun contenu : il lit les sources que vous ajoutez vous-même.
 
