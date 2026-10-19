@@ -39,16 +39,15 @@ A demo playlist of open-licence Blender films is built in, so you can try ModelT
 
 ## ✨ Features
 
-<p align="center">
-  <img src="images/tv-detail.jpg" alt="Movie page on TV with poster, synopsis, Watch and Trailer buttons" width="49%">
-  <img src="images/tv-guide.jpg" alt="TV guide built for the remote, with catch-up" width="49%">
-</p>
+<p align="center"><img src="images/tv-01.jpg" alt="Home screen on TV with continue watching and trending movies" width="50%"><img src="images/tv-02.jpg" alt="Movie page on TV with poster, synopsis, Watch and Trailer buttons" width="50%"></p>
 
 **Movies and series**
 - Pages from TMDb: posters, synopsis, rating, cast and trailers
 - Continue watching, resume, next episode, skip intro, recap and credits
 - Search by title or actor, trending and top 10 rows
 - My list and history, for each profile
+
+<p align="center"><img src="images/tv-03.jpg" alt="Series page on TV, episode by episode" width="50%"><img src="images/tv-04.jpg" alt="TV guide built for the remote, with catch-up" width="50%"></p>
 
 **Live TV**
 - TV guide (XMLTV or your provider's), with catch-up when your provider offers it
@@ -59,6 +58,8 @@ A demo playlist of open-licence Blender films is built in, so you can try ModelT
 - M3U playlists and Xtream logins, typed with the remote or sent from your phone
 - Up to 20 playlists in one catalogue: a title offered twice appears once, with all its sources
 - Show or hide your provider's categories, for each profile
+
+<p align="center"><img src="images/tv-06.jpg" alt="TV set up by scanning a QR code with the phone" width="50%"><img src="images/tv-07.jpg" alt="Who is watching? Profile choice on TV" width="50%"></p>
 
 **Every screen, everyone**
 - Profiles ("Who's watching?") with their own list, history and settings
@@ -72,12 +73,7 @@ A demo playlist of open-licence Blender films is built in, so you can try ModelT
 - English, French, Spanish, German, Italian and Portuguese
 - Free for now, no ads, no account required
 
-<p align="center">
-  <img src="images/iphone-home.jpg" alt="Home screen on iPhone" width="24%">
-  <img src="images/iphone-series.jpg" alt="Series page on iPhone, episode by episode" width="24%">
-  <img src="images/iphone-live.jpg" alt="Live TV guide and catch-up on iPhone" width="24%">
-  <img src="images/iphone-sources.jpg" alt="One channel with its 4K, FHD, HD and SD sources" width="24%">
-</p>
+<p align="center"><img src="images/iphone-05.jpg" alt="Live TV guide and catch-up on iPhone" width="25%"><img src="images/iphone-06.jpg" alt="One channel with its 4K, FHD, HD and SD sources" width="25%"><img src="images/iphone-07.jpg" alt="Search by title or actor on iPhone" width="25%"><img src="images/iphone-08.jpg" alt="ModelTV on phone, tablet and TV" width="25%"></p>
 
 ## 📺 Devices
 
