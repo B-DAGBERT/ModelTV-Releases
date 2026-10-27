@@ -83,7 +83,7 @@ A demo playlist of open-licence Blender films is built in, so you can try ModelT
 | Android TV and Google TV | Android 8 or later | Google Play or the APK |
 | Fire TV | Fire OS 7 or later | The APK, with the Downloader app |
 | iPhone and iPad | iOS 15 or later | App Store |
-| Apple TV | tvOS 16 or later | App Store, coming soon |
+| Apple TV | tvOS 16 or later | App Store |
 
 Samsung and LG TVs don't accept Android or Apple apps: plug a Google TV or Fire TV stick, or an Apple TV, into an HDMI port. Fire TV models running Vega OS can't run Android apps.
 
