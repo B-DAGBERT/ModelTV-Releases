@@ -1,6 +1,6 @@
 # Politique de confidentialité de ModelTV
 
-Dernière mise à jour : 17 octobre 2026
+Dernière mise à jour : 2 novembre 2026
 
 ModelTV est un lecteur vidéo pour Android, Android TV, Google TV, Fire TV, iPhone, iPad et Apple TV. Il lit les playlists M3U et les accès Xtream que vous fournissez vous-même. **ModelTV ne fournit aucune chaîne, aucun film ni aucun abonnement.**
 
@@ -23,7 +23,7 @@ Désinstaller ModelTV efface ces données.
 - **TMDb** (The Movie Database) : les titres et années des films et séries de votre playlist, pour obtenir affiches, résumés et distributions. TMDb reçoit aussi votre adresse IP, comme tout site consulté. Les informations reçues sont conservées sur l’appareil six mois au plus. Politique de TMDb : https://www.themoviedb.org/privacy-policy
 - **IntroDB** : l’identifiant IMDb, la saison et l’épisode d’une série, pour connaître la position de son générique.
 - **YouTube** : une bande-annonce s’ouvre dans l’application ou le site YouTube, soumis aux règles de Google.
-- **Google Cast** (Android) et **AirPlay** (iPhone, iPad) : quand vous diffusez sur un téléviseur, l’adresse de la vidéo est transmise à l’appareil qui la lit.
+- **Google Cast** (Android, iPhone, iPad) et **AirPlay** (iPhone, iPad) : quand vous diffusez sur un téléviseur, l’adresse de la vidéo est transmise à l’appareil qui la lit.
 - **Recherche vocale sur iPhone et iPad** : votre voix est traitée par la reconnaissance vocale d’Apple, sur l’appareil quand il le permet, sinon par les serveurs d’Apple, selon les règles d’Apple.
 - **Votre fournisseur IPTV** reçoit les demandes de lecture et de catalogue, comme avec tout lecteur.
 
@@ -48,10 +48,10 @@ Ces données sont hébergées par Google Firebase et conservées jusqu’à la s
 ModelTV utilise des services de Google qui reçoivent des données techniques, selon les [règles de confidentialité de Google](https://policies.google.com/privacy) :
 
 - **Firebase** (compte, synchronisation, serveur ModelTV, relais de l’ajout d’un appareil ; toutes les versions) : adresse IP et agent utilisateur des requêtes. Firebase héberge aussi les paquets chiffrés des playlists et la liste des appareils du compte (voir la partie 3).
-- **Google Cast** (Android) : journaux d’utilisation anonymes (découverte des appareils, sessions de diffusion, modèle de l’appareil), sans identifiant permettant de remonter à vous.
+- **Google Cast** (Android, iPhone, iPad) : journaux d’utilisation anonymes (découverte des appareils, sessions de diffusion, modèle de l’appareil), sans identifiant permettant de remonter à vous.
 - **Scanner de QR code** des services Google Play (Android) : métriques de performance et d’utilisation du scanner.
 
-Les applications iPhone, iPad et Apple TV n’intègrent aucune bibliothèque de Google : elles appellent directement les services web de Firebase, et l’iPhone lit les QR codes avec son appareil photo, sans service tiers.
+Les applications iPhone, iPad et Apple TV n’intègrent aucune bibliothèque de Google, sauf celle de Google Cast sur iPhone et iPad, pour diffuser sur un Chromecast : elles appellent directement les services web de Firebase, et l’iPhone lit les QR codes avec son appareil photo, sans service tiers.
 
 ## 4. Supprimer votre compte
 
