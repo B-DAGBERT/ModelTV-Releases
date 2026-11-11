@@ -25,7 +25,7 @@ Cette page explique comment supprimer votre compte **ModelTV** (applications And
 ## Données conservées
 
 - Ce qui est enregistré sur l’appareil où vous supprimez le compte (playlists, bibliothèque, réglages) y reste : les playlists du compte y deviennent des playlists de l’appareil seul, jusqu’à ce que vous les supprimiez. Les autres appareils connectés au compte sont déconnectés et peuvent effacer les playlists synchronisées, comme lors d’une déconnexion à distance. Désinstaller ModelTV efface le tout.
-- L’identifiant pseudonyme de chaque appareil (date du premier lancement, version), qui n’est pas enregistré avec le compte et sert aux informations de service ; il est effacé deux ans après le dernier contact de l’appareil.
+- L’identifiant pseudonyme de chaque appareil (date du premier lancement, jours d’ouverture, version), qui n’est pas enregistré avec le compte et sert aux informations de service ; il est effacé deux ans après le dernier contact de l’appareil.
 - Un marqueur technique de suppression (identifiant du compte seul), effacé automatiquement sous 48 heures.
 - Ce que Trakt a déjà reçu reste sur votre compte Trakt, que vous gérez sur trakt.tv.
 
